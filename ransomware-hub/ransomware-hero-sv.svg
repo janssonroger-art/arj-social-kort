@@ -9,43 +9,41 @@
   <rect width="1200" height="627" fill="url(#grid)"/>
 
   <!-- Eyebrow, centred top -->
-  <text x="600" y="60" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" fill="#b8862f" letter-spacing="6">RANSOMWARE &#183; FEM LAGER</text>
+  <text x="600" y="68" text-anchor="middle" font-family="'Courier New', monospace" font-size="18" fill="#b8862f" letter-spacing="6">RANSOMWARE &#183; FEM LAGER</text>
 
-  <!-- Centred concentric rings (centre at 600, 335) -->
-  <g transform="translate(600 335)">
-    <circle cx="0" cy="0" r="220" fill="none" stroke="#f5f3ec" stroke-width="1.5" opacity="0.92"/>
-    <circle cx="0" cy="0" r="175" fill="none" stroke="#f5f3ec" stroke-width="1.5" opacity="0.88"/>
-    <circle cx="0" cy="0" r="130" fill="none" stroke="#f5f3ec" stroke-width="1.5" opacity="0.82"/>
-    <circle cx="0" cy="0" r="85" fill="none" stroke="#f5f3ec" stroke-width="1.5" opacity="0.76"/>
-    <circle cx="0" cy="0" r="40" fill="none" stroke="#b2292e" stroke-width="2.5"/>
+  <!-- Concentric rings centred horizontally, pushed up slightly to free space for the logo below -->
+  <g transform="translate(600 280)">
+    <circle cx="0" cy="0" r="180" fill="none" stroke="#f5f3ec" stroke-width="1.5" opacity="0.92"/>
+    <circle cx="0" cy="0" r="145" fill="none" stroke="#f5f3ec" stroke-width="1.5" opacity="0.88"/>
+    <circle cx="0" cy="0" r="110" fill="none" stroke="#f5f3ec" stroke-width="1.5" opacity="0.82"/>
+    <circle cx="0" cy="0" r="75" fill="none" stroke="#f5f3ec" stroke-width="1.5" opacity="0.76"/>
+    <circle cx="0" cy="0" r="38" fill="none" stroke="#b2292e" stroke-width="2.5"/>
 
-    <!-- Centre dot: what the layers defend -->
     <circle cx="0" cy="0" r="6" fill="#b2292e"/>
 
-    <!-- Numbers at 12 o'clock on each ring, with background to break the ring line -->
     <g font-family="'Iowan Old Style', Georgia, serif" font-size="18" font-weight="600" fill="#f5f3ec" text-anchor="middle">
-      <rect x="-14" y="-233" width="28" height="26" fill="#1a2420"/>
-      <text x="0" y="-215">1</text>
+      <rect x="-14" y="-193" width="28" height="26" fill="#1a2420"/>
+      <text x="0" y="-175">1</text>
 
-      <rect x="-14" y="-188" width="28" height="26" fill="#1a2420"/>
-      <text x="0" y="-170">2</text>
+      <rect x="-14" y="-158" width="28" height="26" fill="#1a2420"/>
+      <text x="0" y="-140">2</text>
 
-      <rect x="-14" y="-143" width="28" height="26" fill="#1a2420"/>
-      <text x="0" y="-125">3</text>
+      <rect x="-14" y="-123" width="28" height="26" fill="#1a2420"/>
+      <text x="0" y="-105">3</text>
 
-      <rect x="-14" y="-98" width="28" height="26" fill="#1a2420"/>
-      <text x="0" y="-80">4</text>
+      <rect x="-14" y="-88" width="28" height="26" fill="#1a2420"/>
+      <text x="0" y="-70">4</text>
 
-      <rect x="-14" y="-53" width="28" height="26" fill="#1a2420"/>
-      <text x="0" y="-35" fill="#b2292e">5</text>
+      <rect x="-14" y="-51" width="28" height="26" fill="#1a2420"/>
+      <text x="0" y="-33" fill="#b2292e">5</text>
     </g>
   </g>
 
-  <!-- Caption under rings, centred -->
-  <text x="600" y="595" text-anchor="middle" font-family="'Iowan Old Style', Georgia, serif" font-size="18" fill="#9aa398" font-style="italic">När en ring brister tar nästa över.</text>
+  <!-- Caption below the rings, centred -->
+  <text x="600" y="505" text-anchor="middle" font-family="'Iowan Old Style', Georgia, serif" font-size="18" fill="#9aa398" font-style="italic">När en ring brister tar nästa över.</text>
 
-  <!-- Official ARJ Distribution logo (white variant), bottom right -->
-  <svg x="1030" y="555" width="130" height="62" viewBox="905 715 1699 1045" preserveAspectRatio="xMinYMin meet">
+  <!-- ARJ Distribution logo, centred under caption -->
+  <svg x="535" y="540" width="130" height="62" viewBox="905 715 1699 1045" preserveAspectRatio="xMidYMin meet">
     <path fill="#fefefe" d="M 916.246704 1631.408936 L 916.246704 1751.30896 L 955.030151 1751.30896 C 972.813416 1751.30896 987.613403 1745.842285 999.463379 1734.904785 C 1011.309265 1723.971436 1017.234314 1709.475586 1017.234314 1691.408936 C 1017.234314 1673.734009 1011.39679 1659.325684 999.709229 1648.154785 C 988.034241 1636.988281 972.909302 1631.408936 954.33844 1631.408936 L 916.246704 1631.408936 Z M 905.609253 1622.542236 L 953.750916 1622.542236 C 978.096802 1622.542236 996.680054 1628.946411 1009.509277 1641.754883 C 1022.34259 1654.55896 1028.746704 1671.113037 1028.746704 1691.408936 C 1028.746704 1711.30896 1022.40509 1727.750732 1009.709229 1740.717285 C 997.009277 1753.68396 978.980042 1760.175537 955.621765 1760.175537 L 905.609253 1760.175537 L 905.609253 1622.542236 Z"/>
     <path fill="#fefefe" d="M 1095.117188 1760.17395 L 1105.754761 1760.17395 L 1105.754761 1622.540649 L 1095.117188 1622.540649 L 1095.117188 1760.17395 Z"/>
     <path fill="#fefefe" d="M 1242.365112 1629.438477 L 1242.365112 1641.159424 C 1230.40686 1634.130249 1220.135864 1630.621826 1211.527588 1630.621826 C 1203.252686 1630.621826 1196.344238 1633.130249 1190.790039 1638.159424 C 1185.235962 1643.180176 1182.465088 1649.401123 1182.465088 1656.82605 C 1182.465088 1662.146973 1184.102661 1666.938477 1187.390137 1671.213623 C 1190.677612 1675.484375 1197.540161 1679.584473 1207.981689 1683.526123 C 1218.423462 1687.467773 1226.048462 1690.755127 1230.835938 1693.380249 C 1235.627563 1696.000977 1239.702637 1699.817627 1243.056763 1704.805176 C 1246.402588 1709.792725 1248.077637 1716.271851 1248.077637 1724.213623 C 1248.077637 1734.792725 1244.198486 1743.721924 1236.452637 1751.01355 C 1228.706787 1758.301025 1219.248413 1761.946899 1208.077637 1761.946899 C 1196.652588 1761.946899 1184.890137 1757.946899 1172.806763 1749.926025 L 1172.806763 1737.417725 C 1186.148438 1747.205322 1197.698486 1752.096924 1207.485962 1752.096924 C 1215.627686 1752.096924 1222.515137 1749.446899 1228.127563 1744.163574 C 1233.744263 1738.884277 1236.552612 1732.392822 1236.552612 1724.705322 C 1236.552612 1718.859375 1234.815063 1713.588623 1231.331787 1708.8927 C 1227.844238 1704.192749 1220.790039 1699.805176 1210.161011 1695.717773 C 1199.519165 1691.642822 1191.92334 1688.355225 1187.352661 1685.855225 C 1182.785889 1683.351074 1178.906738 1679.792725 1175.715088 1675.176147 C 1172.527588 1670.546875 1170.935913 1664.584351 1170.935913 1657.292725 C 1170.935913 1647.196777 1174.815063 1638.575928 1182.565063 1631.455322 C 1190.306763 1624.32605 1199.644165 1620.7677 1210.540161 1620.7677 C 1221.244263 1620.7677 1231.860962 1623.663574 1242.365112 1629.438477"/>
