@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 627" width="1200" height="627">
+  <rect width="1200" height="627" fill="#1a2420"/>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#2a3430" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="627" fill="url(#grid)"/>
+
+  <text x="80" y="110" font-family="'Courier New', monospace" font-size="18" fill="#b8862f" letter-spacing="4">RANSOMWARE &#183; FEM LAGER</text>
+
+  <g>
+    <text x="80" y="195" font-family="'Iowan Old Style', Georgia, serif" font-size="32" font-weight="600" fill="#f5f3ec">1</text>
+    <rect x="130" y="170" width="990" height="30" fill="#b2292e"/>
+  </g>
+
+  <g>
+    <text x="80" y="255" font-family="'Iowan Old Style', Georgia, serif" font-size="32" font-weight="600" fill="#f5f3ec">2</text>
+    <rect x="130" y="230" width="640" height="30" fill="#b8862f"/>
+    <rect x="770" y="230" width="350" height="30" fill="#2a3430" stroke="#3d3a30" stroke-width="1"/>
+  </g>
+
+  <g>
+    <text x="80" y="315" font-family="'Iowan Old Style', Georgia, serif" font-size="32" font-weight="600" fill="#f5f3ec">3</text>
+    <rect x="130" y="290" width="200" height="30" fill="#3a4a52"/>
+    <rect x="330" y="290" width="790" height="30" fill="#2a3430" stroke="#3d3a30" stroke-width="1"/>
+  </g>
+
+  <g>
+    <text x="80" y="375" font-family="'Iowan Old Style', Georgia, serif" font-size="32" font-weight="600" fill="#f5f3ec">4</text>
+    <rect x="130" y="350" width="440" height="30" fill="#b8862f"/>
+    <rect x="570" y="350" width="550" height="30" fill="#2a3430" stroke="#3d3a30" stroke-width="1"/>
+  </g>
+
+  <g>
+    <text x="80" y="435" font-family="'Iowan Old Style', Georgia, serif" font-size="32" font-weight="600" fill="#f5f3ec">5</text>
+    <rect x="130" y="410" width="990" height="30" fill="#b2292e"/>
+  </g>
+
+  <text x="130" y="495" font-family="'Iowan Old Style', Georgia, serif" font-size="17" fill="#9aa398" font-style="italic">Inget enskilt lager räcker. Varje lager som missar lämnar över jobbet till nästa.</text>
+
+  <g transform="translate(1000, 560)">
+    <text x="0" y="0" font-family="'Iowan Old Style', Georgia, serif" font-size="28" font-weight="700" fill="#f5f3ec" letter-spacing="2">ARJ</text>
+    <text x="63" y="0" font-family="'Iowan Old Style', Georgia, serif" font-size="14" fill="#9aa398" letter-spacing="1">DISTRIBUTION</text>
+  </g>
+</svg>
