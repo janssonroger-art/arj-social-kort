@@ -8,40 +8,63 @@
   </defs>
   <rect width="1200" height="627" fill="url(#grid)"/>
 
-  <text x="80" y="110" font-family="'Courier New', monospace" font-size="18" fill="#b8862f" letter-spacing="4">RANSOMWARE &#183; FIVE LAYERS</text>
+  <!-- Eyebrow -->
+  <text x="80" y="90" font-family="'Courier New', monospace" font-size="18" fill="#b8862f" letter-spacing="4">RANSOMWARE &#183; DEFENCE IN DEPTH</text>
 
-  <g>
-    <text x="80" y="195" font-family="'Iowan Old Style', Georgia, serif" font-size="32" font-weight="600" fill="#f5f3ec">1</text>
-    <rect x="130" y="170" width="990" height="30" fill="#b2292e"/>
+  <!-- Right-side ring stack (centered around 850, 313) -->
+  <!-- Rings get thinner toward the centre, suggesting the attacker must pierce each one -->
+  <g transform="translate(850 313)">
+    <!-- Ring 1 (outermost): perimeter -->
+    <circle cx="0" cy="0" r="245" fill="none" stroke="#f5f3ec" stroke-width="1.5" opacity="0.92"/>
+    <!-- Ring 2 -->
+    <circle cx="0" cy="0" r="195" fill="none" stroke="#f5f3ec" stroke-width="1.5" opacity="0.88"/>
+    <!-- Ring 3 -->
+    <circle cx="0" cy="0" r="145" fill="none" stroke="#f5f3ec" stroke-width="1.5" opacity="0.82"/>
+    <!-- Ring 4 -->
+    <circle cx="0" cy="0" r="95" fill="none" stroke="#f5f3ec" stroke-width="1.5" opacity="0.76"/>
+    <!-- Ring 5 (innermost): backup -->
+    <circle cx="0" cy="0" r="45" fill="none" stroke="#b2292e" stroke-width="2.5"/>
+
+    <!-- Centre dot: what the layers are defending -->
+    <circle cx="0" cy="0" r="6" fill="#b2292e"/>
+
+    <!-- Layer numbers at 12 o'clock on each ring, in their own small label cap that breaks the ring -->
+    <g font-family="'Iowan Old Style', Georgia, serif" font-size="18" font-weight="600" fill="#f5f3ec" text-anchor="middle">
+      <rect x="-14" y="-258" width="28" height="26" fill="#1a2420"/>
+      <text x="0" y="-240">1</text>
+
+      <rect x="-14" y="-208" width="28" height="26" fill="#1a2420"/>
+      <text x="0" y="-190">2</text>
+
+      <rect x="-14" y="-158" width="28" height="26" fill="#1a2420"/>
+      <text x="0" y="-140">3</text>
+
+      <rect x="-14" y="-108" width="28" height="26" fill="#1a2420"/>
+      <text x="0" y="-90">4</text>
+
+      <rect x="-14" y="-58" width="28" height="26" fill="#1a2420"/>
+      <text x="0" y="-40" fill="#b2292e">5</text>
+    </g>
   </g>
 
-  <g>
-    <text x="80" y="255" font-family="'Iowan Old Style', Georgia, serif" font-size="32" font-weight="600" fill="#f5f3ec">2</text>
-    <rect x="130" y="230" width="640" height="30" fill="#b8862f"/>
-    <rect x="770" y="230" width="350" height="30" fill="#2a3430" stroke="#3d3a30" stroke-width="1"/>
-  </g>
+  <!-- Left-side explanation: compact legend -->
+  <g font-family="'Iowan Old Style', Georgia, serif" font-size="17" fill="#f5f3ec">
+    <text x="80" y="195" font-size="22" font-weight="600">Five layers</text>
+    <text x="80" y="220" font-size="22" font-weight="600" fill="#9aa398" font-style="italic">of defence</text>
 
-  <g>
-    <text x="80" y="315" font-family="'Iowan Old Style', Georgia, serif" font-size="32" font-weight="600" fill="#f5f3ec">3</text>
-    <rect x="130" y="290" width="200" height="30" fill="#3a4a52"/>
-    <rect x="330" y="290" width="790" height="30" fill="#2a3430" stroke="#3d3a30" stroke-width="1"/>
-  </g>
+    <g font-size="15" fill="#9aa398">
+      <text x="80" y="275"><tspan fill="#f5f3ec" font-weight="600">1</tspan> &#8194; Email and user awareness</text>
+      <text x="80" y="302"><tspan fill="#f5f3ec" font-weight="600">2</tspan> &#8194; Identity and access</text>
+      <text x="80" y="329"><tspan fill="#f5f3ec" font-weight="600">3</tspan> &#8194; Limit the spread</text>
+      <text x="80" y="356"><tspan fill="#f5f3ec" font-weight="600">4</tspan> &#8194; Detect and respond</text>
+      <text x="80" y="383"><tspan fill="#b2292e" font-weight="600">5</tspan> &#8194; <tspan fill="#f5f3ec">Be able to restore</tspan></text>
+    </g>
 
-  <g>
-    <text x="80" y="375" font-family="'Iowan Old Style', Georgia, serif" font-size="32" font-weight="600" fill="#f5f3ec">4</text>
-    <rect x="130" y="350" width="440" height="30" fill="#b8862f"/>
-    <rect x="570" y="350" width="550" height="30" fill="#2a3430" stroke="#3d3a30" stroke-width="1"/>
+    <text x="80" y="440" font-size="14" fill="#9aa398" font-style="italic">When one ring fails, the next one answers.</text>
   </g>
-
-  <g>
-    <text x="80" y="435" font-family="'Iowan Old Style', Georgia, serif" font-size="32" font-weight="600" fill="#f5f3ec">5</text>
-    <rect x="130" y="410" width="990" height="30" fill="#b2292e"/>
-  </g>
-
-  <text x="130" y="495" font-family="'Iowan Old Style', Georgia, serif" font-size="17" fill="#9aa398" font-style="italic">No single layer is enough. Every layer that misses hands the job to the next.</text>
 
   <!-- Official ARJ Distribution logo (white variant), bottom right -->
-  <svg x="970" y="525" width="160" height="78" viewBox="905 715 1699 1045" preserveAspectRatio="xMinYMin meet">
+  <svg x="990" y="530" width="140" height="68" viewBox="905 715 1699 1045" preserveAspectRatio="xMinYMin meet">
     <path fill="#fefefe" d="M 916.246704 1631.408936 L 916.246704 1751.30896 L 955.030151 1751.30896 C 972.813416 1751.30896 987.613403 1745.842285 999.463379 1734.904785 C 1011.309265 1723.971436 1017.234314 1709.475586 1017.234314 1691.408936 C 1017.234314 1673.734009 1011.39679 1659.325684 999.709229 1648.154785 C 988.034241 1636.988281 972.909302 1631.408936 954.33844 1631.408936 L 916.246704 1631.408936 Z M 905.609253 1622.542236 L 953.750916 1622.542236 C 978.096802 1622.542236 996.680054 1628.946411 1009.509277 1641.754883 C 1022.34259 1654.55896 1028.746704 1671.113037 1028.746704 1691.408936 C 1028.746704 1711.30896 1022.40509 1727.750732 1009.709229 1740.717285 C 997.009277 1753.68396 978.980042 1760.175537 955.621765 1760.175537 L 905.609253 1760.175537 L 905.609253 1622.542236 Z"/>
     <path fill="#fefefe" d="M 1095.117188 1760.17395 L 1105.754761 1760.17395 L 1105.754761 1622.540649 L 1095.117188 1622.540649 L 1095.117188 1760.17395 Z"/>
     <path fill="#fefefe" d="M 1242.365112 1629.438477 L 1242.365112 1641.159424 C 1230.40686 1634.130249 1220.135864 1630.621826 1211.527588 1630.621826 C 1203.252686 1630.621826 1196.344238 1633.130249 1190.790039 1638.159424 C 1185.235962 1643.180176 1182.465088 1649.401123 1182.465088 1656.82605 C 1182.465088 1662.146973 1184.102661 1666.938477 1187.390137 1671.213623 C 1190.677612 1675.484375 1197.540161 1679.584473 1207.981689 1683.526123 C 1218.423462 1687.467773 1226.048462 1690.755127 1230.835938 1693.380249 C 1235.627563 1696.000977 1239.702637 1699.817627 1243.056763 1704.805176 C 1246.402588 1709.792725 1248.077637 1716.271851 1248.077637 1724.213623 C 1248.077637 1734.792725 1244.198486 1743.721924 1236.452637 1751.01355 C 1228.706787 1758.301025 1219.248413 1761.946899 1208.077637 1761.946899 C 1196.652588 1761.946899 1184.890137 1757.946899 1172.806763 1749.926025 L 1172.806763 1737.417725 C 1186.148438 1747.205322 1197.698486 1752.096924 1207.485962 1752.096924 C 1215.627686 1752.096924 1222.515137 1749.446899 1228.127563 1744.163574 C 1233.744263 1738.884277 1236.552612 1732.392822 1236.552612 1724.705322 C 1236.552612 1718.859375 1234.815063 1713.588623 1231.331787 1708.8927 C 1227.844238 1704.192749 1220.790039 1699.805176 1210.161011 1695.717773 C 1199.519165 1691.642822 1191.92334 1688.355225 1187.352661 1685.855225 C 1182.785889 1683.351074 1178.906738 1679.792725 1175.715088 1675.176147 C 1172.527588 1670.546875 1170.935913 1664.584351 1170.935913 1657.292725 C 1170.935913 1647.196777 1174.815063 1638.575928 1182.565063 1631.455322 C 1190.306763 1624.32605 1199.644165 1620.7677 1210.540161 1620.7677 C 1221.244263 1620.7677 1231.860962 1623.663574 1242.365112 1629.438477"/>
